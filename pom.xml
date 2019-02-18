@@ -14,17 +14,6 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
-    <repositories>
-        <repository>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <id>neo4j-enterprise</id>
-            <name>Neo4j Enterprise Artifacts</name>
-            <url>http://m2.neo4j.com/enterprise</url>
-        </repository>
-    </repositories>
-
     <dependencies>
         <dependency>
             <groupId>org.neo4j</groupId>
